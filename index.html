@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+
+  <link rel="stylesheet" href="./assets/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <!-- import icon font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+  <!-- Import thư viện JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+  <header >
+    <div class="logo">
+      <h1>Vu.</h1>
+ 
+
+    </div>
+    <div class="navDiv">
+      <label for="menu">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+    </div>
+    <input type="checkbox" id="menu" />
+    <ul class="nav">
+      <label for="menu">
+        <i class="fa-solid fa-xmark"></i>
+      </label>
+      <li><a class="btna" href="#home">Home</a></li>
+      <li><a class="btna" href="#skill">Skill</a></li>
+      <li><a class="btna" href="#project">Project</a></li>
+      <li><a class="btna" href="#contact">Contact</a></li>
+      <li>
+             <!-- theme toggler  -->
+      <div id="theme-toggler" class="fas fa-moon"></div>
+      </li>
+    </ul>
+
+  </header>
+  
+  <div class="container" id="home">
+    <div class="banner" >
+      <div class="content">
+        <p class="welcome">WELCOME TO MY PROFILE</p>
+        <h1>
+          Hi, I'm Ngo Vu <br />
+          a
+          <div class="gradientText">
+            <div class="job" data-job1="Developer." data-job2="FrondEnd."></div>
+          </div>
+        </h1>
+        <p>
+          My name is Ngo Van Vu. I'm a frontend developer living in Hanoi,
+          Vietnam. I studied at FPT Polytechnic Hanoi and graduated in 2023.
+          After I graduate, I want to learn more specialized knowledge and
+          find the right company for me and below is some information about me
+          and the projects I have worked on.
+        </p>
+        <div class="cv">
+          <a href="./assets/image/avatar.png" class="btn-download" download="Download CV">Download CV</a>
+        </div>
+
+        <div class="find">
+          <h3>FIND WITH ME</h3>
+          
+          <ul>
+            <li><i class="fa-brands fa-facebook-f"></i></li>
+            <li><i class="fa-brands fa-instagram"></i></li>
+            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><i class="fa-brands fa-github"></i></li>
+          </ul>
+          
+        </div>
+      </div>
+      <div class="avatar">
+        <img src="./assets/image/avatar (1).png" alt="" />
+      </div>
+    </div>
+
+    <div id="skill">
+      <h1 class="title">SKILL</h1>
+
+      <div class="listSkill">
+        <div class="item">
+          <div class="name">HTML5</div>
+          <div class="evaluate" style="--point: 80%"></div>
+        </div>
+        <div class="item">
+          <div class="name">CSS3</div>
+          <div class="evaluate" style="--point: 70%"></div>
+        </div>
+        <div class="item">
+          <div class="name">Javascript</div>
+          <div class="evaluate" style="--point: 80%"></div>
+        </div>
+        <div class="item">
+          <div class="name">PHP</div>
+          <div class="evaluate" style="--point: 50%"></div>
+        </div>
+  
+        <div class="item">
+          <div class="name">React JS</div>
+          <div class="evaluate" style="--point: 90%"></div>
+        </div>
+        <div class="item">
+          <div class="name">Angular JS</div>
+          <div class="evaluate" style="--point: 70%"></div>
+        </div>
+
+        <div class="item">
+          <div class="name">Next JS</div>
+          <div class="evaluate" style="--point: 60%"></div>
+        </div>
+        <div class="item">
+          <div class="name">Node JS</div>
+          <div class="evaluate" style="--point: 60%"></div>
+        </div>
+        
+      </div>
+
+    </div>
+
+    <div id="project" >
+      <h1 class="title">SELECTED PROJECT</h1>
+      <div class="find-category">
+        <ul>
+          <li><h1>All</h1></li>
+          <li><i class="fa-brands fa-css3-alt"></i></li>
+          <li><i class="fa-brands fa-php"></i></li>
+          <li><i class="fa-brands fa-js"></i></li>
+          <li><i class="fa-brands fa-angular"></i></li>
+          <li><i class="fa-brands fa-node-js"></i></li>
+         
+          
+        
+
+        </ul>
+      </div>
+      <div class="listProject">
+        <div class="item">
+          <img class="image" src="./assets/image/img1.jpg" alt="" />
+          <div class="middle">
+            <div class="name">Project Name 1</div>
+            <!-- modal 1 -->
+            <div class="box">
+              <a href="#m1-o" class="link-1" id="m1-c">Modal 1</a>
+              <div class="modal-container" id="m1-o" style="--m-background: transparent;">
+                <div class="modal">
+                  <h1 class="modal__title">Modal 1 Title</h1>
+                  <p class="modal__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis ex dicta
+                    maiores libero minus obcaecati iste optio, eius labore repellendus.</p>
+  
+                  <a href="#project" class="link-2"></a>
+                </div>
+              </div>
+            </div>
+            <!-- /modal 1 -->
+          </div>
+        </div>
+        
+        <div class="item">
+          <img class="image" src="./assets/image/img1.jpg" alt="" />
+          <div class="middle">
+            <div class="name">Project Name 1</div>
+            <!-- modal 1 -->
+            <div class="box">
+              <a href="#m1-a" class="link-1" id="m1-c">Modal 1</a>
+              <div class="modal-container" id="m1-a" style="--m-background: transparent;">
+                <div class="modal">
+                  <h1 class="modal__title">Modal 1 Title</h1>
+                  <p class="modal__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis ex dicta
+                    maiores libero minus obcaecati iste optio, eius labore repellendus.</p>
+  
+                  <a href="#project" class="link-2"></a>
+                </div>
+              </div>
+            </div>
+            <!-- /modal 1 -->
+          </div>
+        </div>
+
+        <div class="item">
+          <img class="image" src="./assets/image/img1.jpg" alt="" />
+          <div class="middle">
+            <div class="name">Project Name 1</div>
+            <!-- modal 1 -->
+            <div class="box">
+              <a href="#m1-b" class="link-1" id="m1-c">Modal 1</a>
+              <div class="modal-container" id="m1-b" style="--m-background: transparent;">
+                <div class="modal">
+                  <h1 class="modal__title">Modal 1 Title</h1>
+                  <p class="modal__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis ex dicta
+                    maiores libero minus obcaecati iste optio, eius labore repellendus.</p>
+  
+                  <a href="#project" class="link-2"></a>
+                </div>
+              </div>
+            </div>
+            <!-- /modal 1 -->
+          </div>
+        </div>
+
+        <div class="item">
+          <img class="image" src="./assets/image/img1.jpg" alt="" />
+          <div class="middle">
+            <div class="name">Project Name 1</div>
+            <!-- modal 1 -->
+            <div class="box">
+              <a href="#m1-b" class="link-1" id="m1-c">Modal 1</a>
+              <div class="modal-container" id="m1-b" style="--m-background: transparent;">
+                <div class="modal">
+                  <h1 class="modal__title">Modal 1 Title</h1>
+                  <p class="modal__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis ex dicta
+                    maiores libero minus obcaecati iste optio, eius labore repellendus.</p>
+  
+                  <a href="#project" class="link-2"></a>
+                </div>
+              </div>
+            </div>
+            <!-- /modal 1 -->
+          </div>
+        </div>
+        <div class="item">
+          <img class="image" src="./assets/image/img1.jpg" alt="" />
+          <div class="middle">
+            <div class="name">Project Name 1</div>
+            <!-- modal 1 -->
+            <div class="box">
+              <a href="#m1-b" class="link-1" id="m1-c">Modal 1</a>
+              <div class="modal-container" id="m1-b" style="--m-background: transparent;">
+                <div class="modal">
+                  <h1 class="modal__title">Modal 1 Title</h1>
+                  <p class="modal__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis ex dicta
+                    maiores libero minus obcaecati iste optio, eius labore repellendus.</p>
+  
+                  <a href="#project" class="link-2"></a>
+                </div>
+              </div>
+            </div>
+            <!-- /modal 1 -->
+          </div>
+        </div>
+        <div class="item">
+          <img class="image" src="./assets/image/img1.jpg" alt="" />
+          <div class="middle">
+            <div class="name">Project Name 1</div>
+            <!-- modal 1 -->
+            <div class="box">
+              <a href="#m1-b" class="link-1" id="m1-c">Modal 1</a>
+              <div class="modal-container" id="m1-b" style="--m-background: transparent;">
+                <div class="modal">
+                  <h1 class="modal__title">Modal 1 Title</h1>
+                  <p class="modal__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis ex dicta
+                    maiores libero minus obcaecati iste optio, eius labore repellendus.</p>
+  
+                  <a href="#project" class="link-2"></a>
+                </div>
+              </div>
+            </div>
+            <!-- /modal 1 -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="contact" id="contact">
+
+      <h1 class="heading"> Contact me </h1>
+
+      <form action="">
+        <input type="text" placeholder="your name" class="box">
+        <input type="email" placeholder="your email" class="box">
+        <input type="text" placeholder="subject" class="box">
+        <textarea name="" class="box" placeholder="your message" id="" cols="30" rows="10"></textarea>
+        <button type="submit" class="btn">send message</button>
+      </form>
+
+    </section>
+
+
+</div>
+
+
+    <footer>
+      <div title="Về đầu trang" id="top-up">
+        <i class="fa-solid fa-chevron-up"></i>
+      </div>
+    </footer>
+
+
+    <script src="./assets/main.js"></script>
+</body>
+
+</html>
